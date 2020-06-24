@@ -22,7 +22,6 @@ nav form {
     background-color: brown;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .top-section article {
@@ -69,16 +68,16 @@ nav form {
   padding-right: 20%;
   grid-gap: 15px;
 }
-.fifth-article {
+.fifth-section {
 text-align: center;
 }
-.sixth-article {
+.sixth-section {
     text-align: center;
     background-color: blue;
     padding-left: 30%;
     padding-right: 30%;
 }
-.seventh-article{
+.seventh-section {
     padding-left: 30%;
     padding-right: 30%;
     
@@ -88,6 +87,67 @@ text-align: center;
     height: 100px;
     background-color: brown;
 }
-.seventh-article article{
+.seventh-section article{
     display: flex;
+}
+
+#week {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.eighth-section {
+  display: grid;
+grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+justify-items: center;
+padding-left: 30%;
+padding-right: 30%;
+grid-gap: 15px;
+}
+
+.eight-img {
+  width: 75px;
+  height: 75px;
+  background-color: steelblue;
+}
+
+.eighth-section article {
+  display: flex;
+}
+.eighth-section article :nth-child(2) {
+  width: 70%;
+}
+
+.ninth-section {
+  text-align: center;
+}
+
+#book {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+.tenth-section article {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(105, 52, 31);
+}
+
+.eleventh-section {
+  display: grid;
+  background-color: lightblue;
+  grid-template-columns: repeat( auto-fit, minmax(40%, 1fr) );
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.eleventh-section article:nth-child(4) {
+  grid-column-start: 3;
+}
+
+@media (max-width: 600px) {
+  .eleventh-section article:nth-child(4) {
+    grid-column-start: 2;
+  }
 }
