@@ -3,6 +3,7 @@ body {
   margin-left: 0;
   font-family: 'Spinnaker', sans-serif;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -21,12 +22,13 @@ nav {
 nav form {
   align-self: center;
 }
+
 .top-section {
-    background-color: brown;
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
-    font-weight: 500;
+  background-color: brown;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-weight: 500;
 }
 
 .top-section article {
@@ -39,7 +41,7 @@ nav form {
 
 .second-section {
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   align-items: center;
   justify-items: center;
   padding-left: 20%;
@@ -47,9 +49,10 @@ nav form {
   grid-gap: 15px;
 }
 
-.second-section article{
+.second-section article {
   background-color: salmon;
 }
+
 .arrow {
   margin-top: 30px;
   width: 75px;
@@ -65,35 +68,40 @@ nav form {
   padding-right: 20%;
   grid-gap: 15px;
 }
+
 .fourth-section {
-    display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   justify-items: center;
   padding-left: 20%;
   padding-right: 20%;
   grid-gap: 15px;
 }
+
 .fifth-section {
-text-align: center;
+  text-align: center;
 }
+
 .sixth-section {
-    text-align: center;
-    background-color: blue;
-    padding-left: 30%;
-    padding-right: 30%;
+  text-align: center;
+  background-color: blue;
+  padding-left: 30%;
+  padding-right: 30%;
 }
+
 .seventh-section {
-    padding-left: 30%;
-    padding-right: 30%;
-    
+  padding-left: 30%;
+  padding-right: 30%;
 }
+
 #person {
-    width: 100px;
-    height: 100px;
-    background-color: brown;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
 }
-.seventh-section article{
-    display: flex;
+
+.seventh-section article {
+  display: flex;
 }
 
 #week {
@@ -103,11 +111,11 @@ text-align: center;
 
 .eighth-section {
   display: grid;
-grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-justify-items: center;
-padding-left: 30%;
-padding-right: 30%;
-grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  grid-gap: 15px;
 }
 
 .eight-img {
@@ -119,6 +127,13 @@ grid-gap: 15px;
 .eighth-section article {
   display: flex;
 }
+
+.fourth-section :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .eighth-section article :nth-child(2) {
   width: 70%;
 }
@@ -142,14 +157,13 @@ grid-gap: 15px;
 .eleventh-section {
   display: grid;
   background-color: lightblue;
-  grid-template-columns: repeat( auto-fit, minmax(40%, 1fr) );
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
   padding-left: 30%;
   padding-right: 30%;
 }
 
 .eleventh-section article:nth-child(4) {
   grid-column-start: 2;
-
 }
 
 @media (max-width: 600px) {
@@ -157,28 +171,24 @@ grid-gap: 15px;
     grid-column-start: 2;
   }
 }
+
 footer {
-    background-color: red;
-    text-align: center;
-    height: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
+  background-color: red;
+  text-align: center;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 footer h4 {
   padding-top: 20px;
 }
-#cage {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    position: relative;
-    bottom: 50px;
-    left: 50px;
-}
 
-.fourth-section :nth-child(1) {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+#cage {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
 }
