@@ -1,18 +1,18 @@
 # SmashingMagazine-Mockup
-![screenshot](assets/img/screenshot-nytclone.png)
+![img](./styles/assets/Screenshot.png)
 
 
-This page is a clone of newyork times article. In this project we applied float,
- flexbox, grid and position.
+It is a heat map of the Smashing Magazine page.
 
 ## Built With
 
 - HTML
 - CSS
+- Netlify
 
 ## Live Demo
 
-[Live Demo Link](https://eager-yalow-5396ee.netlify.app)
+[Live Demo Link](https://angry-benz-d38c3d.netlify.app/)
 
 
 ## Getting Started
