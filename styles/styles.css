@@ -56,9 +56,38 @@ nav form {
 .third-section {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  align-items: center;
   justify-items: center;
   padding-left: 20%;
   padding-right: 20%;
   grid-gap: 15px;
+}
+.fourth-section {
+    display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  justify-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  grid-gap: 15px;
+}
+.fifth-article {
+text-align: center;
+}
+.sixth-article {
+    text-align: center;
+    background-color: blue;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.seventh-article{
+    padding-left: 30%;
+    padding-right: 30%;
+    
+}
+#person {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+.seventh-article article{
+    display: flex;
 }
