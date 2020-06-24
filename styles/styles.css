@@ -18,3 +18,8 @@ nav {
 nav form {
   align-self: center;
 }
+.top-section {
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+}
