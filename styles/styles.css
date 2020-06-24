@@ -143,11 +143,23 @@ grid-gap: 15px;
 }
 
 .eleventh-section article:nth-child(4) {
-  grid-column-start: 3;
+  grid-column-start: 2;
+
 }
 
 @media (max-width: 600px) {
   .eleventh-section article:nth-child(4) {
     grid-column-start: 2;
   }
+}
+footer {
+    background-color: red;
+    text-align: center;
+}
+#cage {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
 }
