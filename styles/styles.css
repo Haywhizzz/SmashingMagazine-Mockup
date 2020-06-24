@@ -22,4 +22,43 @@ nav form {
     background-color: brown;
     display: flex;
     flex-wrap: wrap;
+
+}
+
+.top-section article {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20rem;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.second-section {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+  align-items: center;
+  justify-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  grid-gap: 15px;
+}
+
+.second-section article{
+  background-color: salmon;
+}
+.arrow {
+  margin-top: 30px;
+  width: 75px;
+  height: 75px;
+  background-color: silver;
+}
+
+.third-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  grid-gap: 15px;
 }
