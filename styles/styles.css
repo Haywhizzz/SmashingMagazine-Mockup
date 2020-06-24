@@ -4,7 +4,7 @@ body {
   font-family: 'Spinnaker', sans-serif;
 }
 
-nav {
+nav ul {
   display: flex;
   justify-content: space-around;
   height: 60px;
