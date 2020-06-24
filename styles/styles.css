@@ -3,7 +3,6 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -98,7 +97,7 @@ text-align: center;
 
 .eighth-section {
   display: grid;
-grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
 justify-items: center;
 padding-left: 30%;
 padding-right: 30%;
@@ -155,11 +154,19 @@ grid-gap: 15px;
 footer {
     background-color: red;
     text-align: center;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer h4 {
+  padding-top: 20px;
 }
 #cage {
     width: 100px;
     height: 100px;
     background-color: blue;
-    position: absolute;
-    bottom: 10px;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
 }
