@@ -121,6 +121,21 @@ nav form {
   padding-right: 30%;
 }
 
+.fourth-section :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-end > :nth-child(1) {
+  width: 100px;
+  height: 100px;
+  background-color: #494848;
+  position: relative;
+  bottom: 50px;
+  left: -250px;
+}
+
 .seventh-section > article > :nth-child(1) {
   width: 100px;
   height: 100px;
@@ -153,12 +168,6 @@ nav form {
 
 .eighth-section article {
   display: flex;
-}
-
-.fourth-section :nth-child(1) {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .eighth-section article :nth-child(2) {
@@ -215,15 +224,6 @@ footer {
 
 footer h4 {
   padding-top: 20px;
-}
-
-.footer-end > :nth-child(1) {
-  width: 100px;
-  height: 100px;
-  background-color: #494848;
-  position: relative;
-  bottom: 50px;
-  left: -250px;
 }
 
 .footer-content {
