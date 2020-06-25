@@ -121,7 +121,7 @@ nav form {
   padding-right: 30%;
 }
 
-#person {
+.seventh-section > article > :nth-child(1) {
   width: 100px;
   height: 100px;
   background-color: #a0a0a0;
@@ -131,7 +131,7 @@ nav form {
   display: flex;
 }
 
-#week {
+.seventh-section > article > :nth-child(2) {
   width: 70%;
   margin-left: 20px;
 }
@@ -165,7 +165,7 @@ nav form {
   width: 70%;
 }
 
-#book {
+.tenth-section > article :nth-child(2) {
   width: 150px;
   height: 150px;
   background-color: #222121;
@@ -217,7 +217,7 @@ footer h4 {
   padding-top: 20px;
 }
 
-#cage {
+.footer-end > :nth-child(1) {
   width: 100px;
   height: 100px;
   background-color: #494848;
