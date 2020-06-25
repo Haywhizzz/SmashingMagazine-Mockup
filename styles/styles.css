@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-  background-color: var(--THEME_COLOR, #d33a2c);
+  background-color: var(--THEME_COLOR, #b1afaf);
 }
 
 nav ul {
@@ -40,7 +40,6 @@ nav form {
 }
 
 .top-section {
-  background-color: brown;
   display: flex;
   flex-wrap: wrap;
   color: white;
@@ -57,12 +56,12 @@ nav form {
 
 .top-section > :nth-child(1),
 .top-section > :nth-child(4) {
-  background-color: #bc3428;
+  background-color: #333;
 }
 
 .top-section > :nth-child(2),
 .top-section > :nth-child(3) {
-  background-color: #c7372a;
+  background-color: #a0a0a0;
 }
 
 .second-section {
@@ -91,8 +90,9 @@ nav form {
   grid-gap: 15px;
 }
 
-.third-section > :nth-child(1) {
-  background-color: #d33a2c;
+.third-section > :nth-child(1),
+.fourth-section > :nth-child(3) {
+  background-color: #a0a0a0;
 }
 
 .fourth-section {
@@ -104,17 +104,14 @@ nav form {
   grid-gap: 15px;
 }
 
-.fourth-section > :nth-child(3) {
-  background-color: #d33a2c;
-}
-
-.fifth-section {
+.fifth-section,
+.ninth-section {
   text-align: center;
 }
 
 .sixth-section {
   text-align: center;
-  background-image: linear-gradient(#1b71bb 45%, #4399d9 100%);
+  background-image: linear-gradient(#a0a0a0 45%, #3e3e3f 100%);
   padding-left: 30%;
   padding-right: 30%;
 }
@@ -127,7 +124,7 @@ nav form {
 #person {
   width: 100px;
   height: 100px;
-  background-color: brown;
+  background-color: #a0a0a0;
 }
 
 .seventh-section article {
@@ -151,7 +148,7 @@ nav form {
 .eight-img {
   width: 75px;
   height: 75px;
-  background-color: steelblue;
+  background-color: #a0a0a0;
 }
 
 .eighth-section article {
@@ -168,20 +165,16 @@ nav form {
   width: 70%;
 }
 
-.ninth-section {
-  text-align: center;
-}
-
 #book {
   width: 150px;
   height: 150px;
-  background-color: lightblue;
+  background-color: #222121;
 }
 
 .tenth-section article {
   display: flex;
   justify-content: space-between;
-  background-color: #d33a2c;
+  background-color: #a0a0a0;
   padding-left: 2%;
 }
 
@@ -195,7 +188,7 @@ nav form {
 .eleventh-section article:nth-child(4) {
   grid-column: 1/-1;
   justify-self: center;
-  background-image: linear-gradient(#1b71bb 60%, #01a6c1 100%);
+  background-image: linear-gradient(#a0a0a0 60%, #5c5d5e 100%);
   margin: 1.5em 0;
   padding: 1em 0;
   box-shadow: none;
@@ -209,7 +202,7 @@ nav form {
 }
 
 footer {
-  background-color: var(--THEME_SECONDARY_COLOR, #d33a2c);
+  background-color: var(--THEME_SECONDARY_COLOR, #a0a0a0);
   text-align: center;
   height: 100%;
   margin-top: 0;
@@ -227,7 +220,7 @@ footer h4 {
 #cage {
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background-color: #494848;
   position: relative;
   bottom: 50px;
   left: -250px;
