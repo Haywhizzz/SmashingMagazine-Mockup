@@ -1,5 +1,5 @@
 # SmashingMagazine-Mockup
-![img](./styles/assets/Screenshot.png)
+![img](./styles/assets/Screenshot2.png)
 
 
 It is a heat map of the Smashing Magazine page.
