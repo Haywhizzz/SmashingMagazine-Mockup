@@ -1,0 +1,259 @@
+body {
+  margin-top: 0;
+  margin-left: 0;
+  font-family: 'Spinnaker', sans-serif;
+}
+
+nav {
+  background-color: var(--THEME_COLOR, #b1afaf);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  color: white;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  padding-top: 20px;
+}
+
+nav ul li:hover {
+  background: #b3d4fc;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-element {
+  text-align: center;
+  width: 7.5%;
+  padding-top: 10px;
+}
+
+nav form {
+  align-self: center;
+}
+
+.top-section {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-weight: 500;
+}
+
+.top-section article {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50rem;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.top-section > :nth-child(1),
+.top-section > :nth-child(4) {
+  background-color: #333;
+}
+
+.top-section > :nth-child(2),
+.top-section > :nth-child(3) {
+  background-color: #a0a0a0;
+}
+
+.second-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-items: center;
+  justify-items: center;
+  padding-left: 5%;
+  padding-right: 20%;
+  grid-gap: 15px;
+}
+
+.arrow {
+  margin-top: 30px;
+  width: 75px;
+  height: 75px;
+  background-color: silver;
+}
+
+.third-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  justify-items: center;
+  padding-left: 5%;
+  padding-right: 20%;
+  grid-gap: 15px;
+}
+
+.third-section > :nth-child(1),
+.fourth-section > :nth-child(3) {
+  background-color: #a0a0a0;
+}
+
+.fourth-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  justify-items: center;
+  padding-left: 5%;
+  padding-right: 20%;
+  grid-gap: 15px;
+}
+
+.fifth-section,
+.ninth-section {
+  text-align: center;
+}
+
+.sixth-section {
+  text-align: center;
+  background-image: linear-gradient(#a0a0a0 45%, #3e3e3f 100%);
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.seventh-section {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.fourth-section :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-end > :nth-child(1) {
+  width: 100px;
+  height: 100px;
+  background-color: #494848;
+  position: relative;
+  bottom: 50px;
+  left: -250px;
+}
+
+.seventh-section > article > :nth-child(1) {
+  width: 100px;
+  height: 100px;
+  background-color: #a0a0a0;
+}
+
+.seventh-section article {
+  display: flex;
+}
+
+.seventh-section > article > :nth-child(2) {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.eighth-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  grid-gap: 15px;
+}
+
+.eight-img {
+  width: 75px;
+  height: 75px;
+  background-color: #a0a0a0;
+}
+
+.eighth-section article {
+  display: flex;
+}
+
+.eighth-section article :nth-child(2) {
+  width: 70%;
+}
+
+.tenth-section > article :nth-child(2) {
+  width: 150px;
+  height: 150px;
+  background-color: #222121;
+}
+
+.tenth-section article {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a0a0a0;
+  padding-left: 2%;
+}
+
+.eleventh-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.eleventh-section article:nth-child(4) {
+  grid-column: 1/-1;
+  justify-self: center;
+  background-image: linear-gradient(#a0a0a0 60%, #5c5d5e 100%);
+  margin: 1.5em 0;
+  padding: 1em 0;
+  box-shadow: none;
+  max-width: 450px;
+}
+
+@media (max-width: 600px) {
+  .eleventh-section article:nth-child(4) {
+    grid-column-start: 2;
+  }
+}
+
+footer {
+  background-color: var(--THEME_SECONDARY_COLOR, #a0a0a0);
+  text-align: center;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+}
+
+footer h4 {
+  padding-top: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.footer-content p a {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-end-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  justify-content: center;
+}
+
+.footer-end-content p a {
+  color: white;
+  margin: 20px;
+}
