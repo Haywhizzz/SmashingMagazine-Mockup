@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-  background-color: var(--THEME_COLOR,#d33a2c);
+  background-color: var(--THEME_COLOR, #d33a2c);
 }
 
 nav ul {
@@ -16,6 +16,8 @@ nav ul {
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 0;
+  list-style: none;
+  padding-top: 20px;
 }
 
 nav ul li:hover {
@@ -25,11 +27,6 @@ nav ul li:hover {
 nav ul li a {
   text-decoration: none;
   color: white;
-}
-
-nav ul {
-  list-style: none;
-  padding-top: 20px;
 }
 
 .nav-element {
@@ -58,12 +55,14 @@ nav form {
   align-items: center;
 }
 
-.top-section > :nth-child(1), .top-section > :nth-child(4) {
+.top-section > :nth-child(1),
+.top-section > :nth-child(4) {
   background-color: #bc3428;
 }
 
-.top-section > :nth-child(2) , .top-section > :nth-child(3) {
-  background-color: #c7372a;;
+.top-section > :nth-child(2),
+.top-section > :nth-child(3) {
+  background-color: #c7372a;
 }
 
 .second-section {
@@ -115,7 +114,7 @@ nav form {
 
 .sixth-section {
   text-align: center;
-  background-image: linear-gradient(#1b71bb 45%,#4399d9 100%);
+  background-image: linear-gradient(#1b71bb 45%, #4399d9 100%);
   padding-left: 30%;
   padding-right: 30%;
 }
@@ -176,7 +175,7 @@ nav form {
 #book {
   width: 150px;
   height: 150px;
-  background-color:lightblue;
+  background-color: lightblue;
 }
 
 .tenth-section article {
@@ -196,7 +195,7 @@ nav form {
 .eleventh-section article:nth-child(4) {
   grid-column: 1/-1;
   justify-self: center;
-  background-image: linear-gradient(#1b71bb 60%,#01a6c1 100%);
+  background-image: linear-gradient(#1b71bb 60%, #01a6c1 100%);
   margin: 1.5em 0;
   padding: 1em 0;
   box-shadow: none;
@@ -210,13 +209,15 @@ nav form {
 }
 
 footer {
-  background-color: var(--THEME_SECONDARY_COLOR,#d33a2c);
+  background-color: var(--THEME_SECONDARY_COLOR, #d33a2c);
   text-align: center;
   height: 100%;
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
 }
 
 footer h4 {
@@ -229,5 +230,37 @@ footer h4 {
   background-color: blue;
   position: relative;
   bottom: 50px;
-  left: 50px;
+  left: -250px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.footer-content p a {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-end-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  justify-content: center;
+}
+
+.footer-end-content p a {
+  color: white;
+  margin: 20px;
 }
